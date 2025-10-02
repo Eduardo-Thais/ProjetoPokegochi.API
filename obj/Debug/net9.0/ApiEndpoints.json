@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "ProjetoPokegochi.Controllers.AcessoController",
+    "Method": "Get",
+    "RelativePath": "Acesso",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoPokegochi.Controllers.ApiUsuarioController",
+    "Method": "CadastraUsuario",
+    "RelativePath": "api/ApiUsuario/cadastro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ProjetoPokegochi.Data.Dtos.CreateUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoPokegochi.Controllers.ApiUsuarioController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/ApiUsuario/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ProjetoPokegochi.Data.Dtos.LoginUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoPokegochi.API.Controllers.MascoteController",
+    "Method": "GetMascotesAsync",
+    "RelativePath": "api/Mascote",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoPokegochi.API.Controllers.MascoteController",
+    "Method": "GetMascotesIdAsync",
+    "RelativePath": "api/Mascote/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
